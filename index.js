@@ -9,7 +9,7 @@ class BankBranch {
             this.branchInfo = branchInfo;
             bankBranchInstance = this;
         }
-        // Always return the existing instance
+        // Step 3 Always return the existing instance
         return bankBranchInstance;
     }
 
